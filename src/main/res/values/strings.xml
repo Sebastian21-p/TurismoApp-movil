@@ -8,4 +8,14 @@
     <string name="txtperdioclave">Perdio clave</string>
     <string name="txtrecuperarclave">Recuperar clave</string>
     <string name="registrar">Registrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Cristo Rey</string>
+    <string name="descripcion">El parque Cristo Rey, ubicado en el barrio La Cabrera de Cúcuta, es un ícono y es uno de los monumentos más emblemáticos de la ciudad, porque data de hace un poco más de 70 años. Fue inaugurado en 1947 en el marco de las celebraciones de las fiestas del Cristo Rey.\n</string>
+    <string name="action_1">Localizar</string>
+    <string name="content_description_media">Cristo Rey</string>
+    <string name="action_2">Favoritos</string>
+    <string name="txtsitios">Sitios Turisticos</string>
+    <string name="txtmissitios">Mis Sitios</string>
+    <string name="txtmiperfil">Mi perfil</string>
 </resources>

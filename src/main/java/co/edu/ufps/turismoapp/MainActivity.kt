@@ -1,12 +1,14 @@
 package co.edu.ufps.turismoapp
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import co.edu.ufps.turismoapp.vista.Contenedor
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -53,6 +55,7 @@ class MainActivity : AppCompatActivity() {
                         "Authentication exitosa.",
                         Toast.LENGTH_SHORT,
                     ).show()
+                    irInicio()
                     //updateUI(user)
                 } else {
                     // If sign in fails, display a message to the user.
@@ -67,7 +70,11 @@ class MainActivity : AppCompatActivity() {
             }
     }
     fun registrar(){
-       // val intent = Intent(this.RegistrarUsuario:
-        //)
+       val intent = Intent(this,RegistrarUsuario::class.java)
+        startActivity(intent)
+    }
+    fun irInicio(){
+        val intent = Intent(this,Contenedor::class.java)
+        startActivity(intent)
     }
 }
